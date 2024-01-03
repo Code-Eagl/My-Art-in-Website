@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.parallex-container {
+  width: 100%;
+  height: 100vh;
+}
+.parallex-image {
+  width: 100%;
+  height: 100vh;
+  background: url(doodle/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h1 {
+  font-size: 70px;
+  color: rgb(25, 23, 23);
+}
+
+img {
+  width: 105%;
+  height: 100%;
+}
+.gallary-wraper {
+  background: url(doodle/bg2.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 870%;
+}
+.gallary {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  width: 80%;
+  margin: 20px auto;
+  padding: 30px;
+}
+.card {
+  max-height: 800px;
+}
+.blank {
+  height: 20vh;
+}
